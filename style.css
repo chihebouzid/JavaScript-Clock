@@ -31,6 +31,7 @@ body {
     border: solid 13px white;
     width: 20em;
     height: 20em;
+    padding: 20px;
 }
 
 .hand{
@@ -47,4 +48,21 @@ body {
 
 .sec-hand{
     background: grey;
+    height: 2px;
 }
+
+.hour-hand{
+    height: 5px;
+    border-radius: 90px;
+}
+
+.min-hand{
+    border-radius: 190px;
+}
+
+.notransition {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+  }
